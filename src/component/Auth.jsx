@@ -5,7 +5,7 @@ const Auth = () => {
 
     function handleSubmit(e) {
         e.preventDefault()
-        navigate('/')
+        navigate('/home')
     }
     return (
         <section className="bg-gray-900">
